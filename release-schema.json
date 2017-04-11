@@ -5,17 +5,6 @@
          "charges": {
           "type":"array",
           "title":"Charges",
-          "description":"Information on the revenue to be raised through charges, as set out in the contract itself, or relevant base-case for the contract.",
-          "items": {
-            "$ref": "#/definitions/Charge"
-          }
-        }
-      },
-    "Implementation": {
-      "properties": {
-         "charges": {
-          "type":"array",
-          "title":"Charges",
           "description":"Information on the revenue to be raised through charges, as set out in the contract or as subsequently revised during the life of the project.",
           "items": {
             "$ref": "#/definitions/Charge"
@@ -73,5 +62,4 @@
       }
     }
   }
-}
 }
