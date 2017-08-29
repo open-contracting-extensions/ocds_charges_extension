@@ -17,5 +17,6 @@ This contains an array of ```Charge``` objects with properties for:
 * ```actualValue``` - the actual value (updated after the period has ended) of the charge during the period;
 * ```notes``` - further information on the charge;
 
+## Issues
 
-
+Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
