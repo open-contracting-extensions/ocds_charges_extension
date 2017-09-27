@@ -1,12 +1,12 @@
 # Charges
 
-The charges extension is used to record details of the **total** charges that are estimated or applied to users or government during the operation of a Public Private Partnership contract. 
+The charges extension is used to record details of the **total** charges that are estimated or applied to users or government during the operation of a Public Private Partnership contract.
 
 This can be used to provide a breakdown of **government support** to a project, on a period-by-period basis.
 
 ## Overview
 
-The Charges extension introduces a ```charges``` property to both ```Contract``` and ```Contract/Implementation```. 
+The Charges extension introduces a ```charges``` property to both ```Contract``` and ```Contract/Implementation```.
 
 This contains an array of ```Charge``` objects with properties for:
 
