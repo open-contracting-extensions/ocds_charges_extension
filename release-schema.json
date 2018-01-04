@@ -34,7 +34,6 @@
             "title":"Paid by",
             "description":"Is this a user charge (paid by businesses or citizens using the facilities provided by the contract), or a charge paid by the government?",
             "type":["string","null"],
-            "enum":["government","user"],
             "codelist":"chargePaidBy.csv",
             "openCodelist":true
         },
