@@ -39,7 +39,11 @@
           ],
           "codelist": "chargePaidBy.csv",
           "openCodelist": false,
-          "enum":["government","user",null]
+          "enum": [
+            "government",
+            "user",
+            null
+          ]
         },
         "period": {
           "title": "Period",
