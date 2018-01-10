@@ -2,10 +2,10 @@
   "definitions": {
     "Implementation": {
       "properties": {
-         "charges": {
-          "type":"array",
-          "title":"Charges",
-          "description":"Information on the revenue to be raised through charges, as set out in the contract or as subsequently revised during the life of the project.",
+        "charges": {
+          "type": "array",
+          "title": "Charges",
+          "description": "Information on the revenue to be raised through charges, as set out in the contract or as subsequently revised during the life of the project.",
           "items": {
             "$ref": "#/definitions/Charge"
           }
@@ -30,26 +30,31 @@
             "null"
           ]
         },
-        "paidBy":{
-            "title":"Paid by",
-            "description":"Is this a user charge (paid by businesses or citizens using the facilities provided by the contract), or a charge paid by the government?",
-            "type":["string","null"],
-            "enum":["government","user"]
+        "paidBy": {
+          "title": "Paid by",
+          "description": "Is this a user charge (paid by businesses or citizens using the facilities provided by the contract), or a charge paid by the government?",
+          "type": [
+            "string",
+            "null"
+          ],
+          "codelist": "chargePaidBy.csv",
+          "openCodelist": false,
+          "enum":["government","user",null]
         },
         "period": {
           "title": "Period",
           "description": "The period to which this charge applies.",
           "$ref": "#/definitions/Period"
         },
-        "estimatedValue":{
-            "title":"Estimated value",
-            "description":"What is the estimated total value to be raised from this charge during this period.",
-            "$ref": "#/definitions/Value"
+        "estimatedValue": {
+          "title": "Estimated value",
+          "description": "What is the estimated total value to be raised from this charge during this period.",
+          "$ref": "#/definitions/Value"
         },
-        "actualValue":{
-            "title":"Actual value",
-            "description":"In the implementation section, this field may be updated with the total revenue raised from this charge during this period.",
-            "$ref": "#/definitions/Value"
+        "actualValue": {
+          "title": "Actual value",
+          "description": "In the implementation section, this field may be updated with the total revenue raised from this charge during this period.",
+          "$ref": "#/definitions/Value"
         },
         "notes": {
           "title": "Notes",
