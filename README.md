@@ -6,16 +6,16 @@ This can be used to provide a breakdown of **government support** to a project, 
 
 ## Overview
 
-The Charges extension introduces a ```charges``` property to both ```Contract``` and ```Contract/Implementation```.
+The Charges extension introduces a `charges` property to both `Contract` and `Contract/Implementation`.
 
-This contains an array of ```Charge``` objects with properties for:
+This contains an array of `Charge` objects with properties for:
 
-* ```title``` - a descriptive title of the charge;
-* ```paidBy``` - either 'government' or 'user';
-* ```period``` - the start and end-date of the period covered by the charge;
-* ```estimatedValue``` - the predicated total value of this charge during the period;
-* ```actualValue``` - the actual value (updated after the period has ended) of the charge during the period;
-* ```notes``` - further information on the charge;
+* `title` - a descriptive title of the charge;
+* `paidBy` - either 'government' or 'user';
+* `period` - the start and end-date of the period covered by the charge;
+* `estimatedValue` - the predicated total value of this charge during the period;
+* `actualValue` - the actual value (updated after the period has ended) of the charge during the period;
+* `notes` - further information on the charge;
 
 ## Issues
 
