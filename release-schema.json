@@ -16,6 +16,9 @@
       "type": "object",
       "title": "Charge",
       "description": "A charge to be incurred by users or government over the course of the contract. Charge information can be broken down by period. Information on the unit prices upon which total values are based can be provided in the tariffs section. ",
+      "required": [
+        "id"
+      ],
       "properties": {
         "id": {
           "title": "Charge identifier",
