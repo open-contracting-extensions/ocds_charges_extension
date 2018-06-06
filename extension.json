@@ -3,7 +3,7 @@
     "en": "Charges"
   },
   "description": {
-    "en": "The charges extension is used to record details of the total charges that are estimated or applied to users or government during the operation of a Public Private Partnership contract."
+    "en": "Adds a charges array to the implementation object to disclose the charges to be incurred by users or government in a given period of a contract."
   },
   "compatibility": [
     "1.1"
