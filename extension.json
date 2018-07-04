@@ -5,12 +5,12 @@
   "description": {
     "en": "Adds a charges array to the implementation object to disclose the charges to be incurred by users or government in a given period of a contract."
   },
-  "compatibility": [
-    "1.1"
-  ],
   "documentationUrl": {
     "en": "https://github.com/open-contracting/ocds_charges_extension"
   },
+  "compatibility": [
+    "1.1"
+  ],
   "codelists": [
     "chargePaidBy.csv"
   ]
