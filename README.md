@@ -17,6 +17,51 @@ This contains an array of `Charge` objects with properties for:
 * `actualValue` - the actual value (updated after the period has ended) of the charge during the period;
 * `notes` - further information on the charge;
 
+## Example
+
+```json
+{
+  "contracts": [
+    {
+      "id": "1",
+      "awardID": "1",
+      "title": "Public Private Partnership Agreement",
+      "description": "Public-Private Partnership agreement entered into by and between telecoms promoter, together with national fibre infrastructure and the special purpose vehicle Mega Consortium Ltd",
+      "implementation": {
+        "charges": [
+          {
+            "id": "2025-user",
+            "title": "User charges for calendar year 2025 resulting from 4G, 3G, voice and SMS tariffs",
+            "estimatedValue": {
+              "amount": 1019100000,
+              "currency": "USD"
+            },
+            "paidBy": "user",
+            "period": {
+              "startDate": "2025-01-01T00:00:00Z",
+              "endDate": "2025-12-31T23:59:59Z"
+            }
+          },
+          {
+            "id": "2026-user",
+            "title": "User charges for calendar year 2026 resulting from 4G, 3G, voice and SMS tariffs",
+            "estimatedValue": {
+              "amount": 1129206411.9632988,
+              "currency": "USD"
+            },
+            "paidBy": "user",
+            "period": {
+              "startDate": "2026-01-01T00:00:00Z",
+              "endDate": "2026-12-31T23:59:59Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+```
+
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
