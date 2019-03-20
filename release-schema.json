@@ -8,7 +8,8 @@
           "description": "Information on the revenue to be raised through charges, as set out in the contract or as subsequently revised during the life of the project.",
           "items": {
             "$ref": "#/definitions/Charge"
-          }
+          },
+          "uniqueItems": true
         }
       }
     },
