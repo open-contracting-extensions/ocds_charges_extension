@@ -6,7 +6,7 @@ This can be used to provide a breakdown of **government support** to a project, 
 
 ## Overview
 
-The Charges extension introduces a `charges` property to both `Contract` and `Contract/Implementation`.
+The Charges extension introduces a `charges` property to both `Contract` and `Contract.implementation`.
 
 This contains an array of `Charge` objects with properties for:
 
