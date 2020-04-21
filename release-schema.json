@@ -9,6 +9,7 @@
           "items": {
             "$ref": "#/definitions/Charge"
           },
+		  "minItems": 1,
           "uniqueItems": true
         }
       }
@@ -33,7 +34,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+		  "minLength": 1
         },
         "paidBy": {
           "title": "Paid by",
@@ -48,7 +50,8 @@
             "government",
             "user",
             null
-          ]
+          ],
+		  "minLength": 1
         },
         "period": {
           "title": "Period",
@@ -71,7 +74,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+		  "minLength": 1
         }
       }
     }
