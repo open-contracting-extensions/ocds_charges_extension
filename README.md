@@ -4,7 +4,7 @@ The charges extension is used to record details of the **total** charges that ar
 
 This can be used to provide a breakdown of **government support** to a project, on a period-by-period basis.
 
-The Charges extension introduces a `charges` property to `Contract.implementation`.
+The charges extension introduces a `charges` array to the `contracts.implementation` object.
 
 ## Example
 
