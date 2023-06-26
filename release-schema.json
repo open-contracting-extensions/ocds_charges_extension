@@ -3,9 +3,9 @@
     "Implementation": {
       "properties": {
         "charges": {
-          "type": "array",
           "title": "Charges",
           "description": "Information on the revenue to be raised through charges, as set out in the contract or as subsequently revised during the life of the project.",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Charge"
           },
@@ -15,9 +15,9 @@
       }
     },
     "Charge": {
-      "type": "object",
       "title": "Charge",
       "description": "A charge to be incurred by users or government over the course of the contract. Charge information can be broken down by period. Information on the unit prices upon which total values are based can be provided in the tariffs section. ",
+      "type": "object",
       "required": [
         "id"
       ],
